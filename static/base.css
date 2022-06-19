@@ -23,7 +23,8 @@ header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);b
 .footer a{text-decoration: none;color:white;}
 .footer p{text-decoration: none;color:white;}
 .footer .fa{text-decoration: none;color:white;color:white;}
-.devdonate a{background:pink;padding: 20px;width: 100px;}
+.devdonate a{background:pink;padding:15px;width: 100px;text-align: center;}
+.devdonate{width:100%}
 .footer h4{color:white;}
 
 @media screen and (max-width:726px){
