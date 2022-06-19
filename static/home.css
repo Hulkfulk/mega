@@ -15,13 +15,12 @@
 .dialogs{display: flex;flex-direction: row;}
 .dialogs p{padding-left: 50px;}
 .testimonials{display: flex;flex-direction: row;}
-
-@media screen and (max-width:480px){
-    .hero1{flex-direction: column;align-items: center;margin-left: -80px;}
-    .article{order:1;padding-top: 80px;font-size: 90%;}
-    .mainimg img{width:100%;height: 200px;}
-    .hero2{font-size:80%;margin-left: -80px;}
-    .hero2 p{font-size: 200%;}
-    .testimonials{flex-direction: column;align-content: center;}
-    .testimonial1 img{border-radius: 50%;width:220px;height: 220px;}
-}   
+@media screen and (max-width:845px){
+    .hero1{flex-direction: column;}
+    .article{order:1;padding-top: 80px;}
+    .mainimg img{flex-shrink: 4;}
+    .mainimg img{width:100%;height: 500px;}
+    .testimonials{flex-direction: column;align-items: center;}
+    .testimonials img{border-radius: 50%;}
+}
+   
