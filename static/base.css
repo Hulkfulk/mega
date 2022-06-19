@@ -26,12 +26,12 @@ header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);b
 .devdonate a{background:pink;padding:15px;width: 100px;text-align: center;}
 .devdonate{width:100%}
 .footer h4{color:white;}
+.col4{display: flex;flex-direction: column;align-items: center;}
 
 @media screen and (max-width:726px){
     .footer{flex-direction: column;align-items: center;}
     .footer div{padding: 50px;}
     .footer h4{text-align: center;}
-    .devdonate a{flex-shrink: 5;}
     .footer p a{text-align: center;}
     
 }
