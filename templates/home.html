@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}
+Home Target computer
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+{% endblock %}
+{% block content %}
+<div class="hero1">
+    <div class="article">
+       <h1>Become Master in computer<br>
+           and its Applications<br>
+           Join us Now
+       </h1>
+       <p>
+         We at Target Computer Provides the
+         best courses and lesson with ony
+         a minimal tutuin fee we are
+         happy  to announce our online
+         Support Through this website
+         Don't miss the Chance
+       </p>
+       <div class="btns">
+         <div class="btn1"><a href="">Explore</a> </div>
+         <div class="btn2"><a href="">SignUp</a> </div>
+       </div>
+       
+    </div>
+    <div class="mainimg">
+       <img src="{{url_for('static',filename='images/logo.jpg')}}" alt="">
+    </div>
+</div>
+<div class="hero2">
+    <h1>Enter The New World</h1>
+    <p>Make Your dream come true
+      <br>start your journey<br>
+      with us.We have success<br>
+      story of millions of <br>
+      millions of students<br>
+      and taking this glory forward<br>
+      Get instant 50% off on first<br>
+      course  
+    </p>
+    <div class="hero2btn">
+        <div class="btn11"><a href="">Enroll Now</a></div>
+        <div class="btn12"><a href="">Start</a></div>
+    </div>
+</div>
+<div class="hero3">
+    <h1>Testimonials</h1>
+    <div class="testimonials">
+        <div class="testimonial1">
+            <img src="{{url_for('static',filename='images/person1.jpg')}}" alt="">
+            <p>The Amazing teacher<br>explains every topic<br> in details i would <br>like to pursue more<br>courses form here</p>
+        </div>
+        <div class="testimonial1">
+            <img src="{{url_for('static',filename='images/person2.jpg')}}" alt="">
+            <p>Although good <br>experienced i would<br> rate 4.5 out of 58<br>Amazing Faculty too</p>
+        </div>
+        <div class="testimonial1">
+            <img src="{{url_for('static',filename='images/person3.jpg')}}" alt="">
+            <p>Joyful and learning <br>environment i learnt<br> very much fronm<br>  your course dear sir<br> Thanku very much</p>
+        </div>
+        
+        
+    </div>
+    
+</div>
+{% endblock %}

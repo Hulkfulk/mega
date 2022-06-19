@@ -1,0 +1,39 @@
+*{margin:0px;padding:0px;}
+body{margin:0px;padding:0px;display: flex;flex-direction: column;align-items: center;}
+.logo img{width:30%;height:50%;}
+header{display:flex;justify-content: space-between;padding:10px;align-items: center;background: black;}
+#header{position: sticky;top:0px;}
+.navbar{display: flex;align-items: center;padding-right: 40px;}
+.navbar ul{display: flex;list-style: none;}
+.navbar ul li{padding:20px;}
+.navbar ul li a{font-size: 200%;color:rgb(255, 255, 255);text-decoration: none;}
+.navbar div{padding:20px;}
+.fa-bars{color:white;font-size: 200%;}
+#home a{background: rgb(0, 195, 255);padding: 10px;border-radius: 10px;}
+.submenu{display: flex;justify-content: right;}
+.subshow{display: flex;background: red;width:470px;justify-content: space-around;position:absolute;margin-top: -97px;}
+.social{display: flex;flex-direction: column;margin-top: 180px;}
+.socialmenu ul li{padding:20px;}
+.socialmenu ul{list-style: none;padding-top: 148px;padding-bottom: 115px;}
+.socialmenu ul li a{font-size: 180%;text-decoration: none;color:white;}
+.social .fa{padding: 20px;font-size:200%;}
+.cross{margin-top: 50px;font-size: 300%;cursor: pointer;background: rgb(255, 0, 0);height: 50px;color:white;}
+.submenu{display:none;}
+
+.footer{display: flex;flex-direction: row;justify-content: space-around;background: black;width:100%;}
+.footer div{color:white;padding:20px;font-size: 140%;}
+.footer div a{color:white;text-decoration: none;}
+.col4{display: flex;flex-direction: column;text-align: left;align-content: flex-start;}
+.devdonate a{background: rgb(255, 0, 119);text-align: center;padding: 20px;margin-left: -20px;padding-top: 20px;}
+
+/* **********media queries************ */
+@media screen and (max-width:480px){
+    .navbar ul{display:none;}
+    .fa-bars{display: block;}
+    
+    .footer div{font-size: 100%;margin-left: -10px;}
+    .footer div a{color:white;text-decoration: none;}
+    .col4{display: flex;flex-direction: column;text-align: left;align-content: flex-start;}
+    .devdonate a{background: rgb(255, 0, 119);text-align: center;padding:5px;margin-left: -150px;padding-top: 20px;}
+    
+}
