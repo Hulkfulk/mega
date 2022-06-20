@@ -13,6 +13,7 @@
 .course1:hover{background: rgb(243, 131, 149);}
 .coursebtn p a:hover{background:rgb(255, 0, 0);color:white;}
 .random .course1{background: red;}
+#coursecall{position: sticky;top:0px;}
 html{
     scroll-behavior: smooth;
 }
