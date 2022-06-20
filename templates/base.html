@@ -15,7 +15,7 @@
     </title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="{{url_for('static',filename='images/logo1.png')}}">
         </div> 
@@ -30,13 +30,13 @@
         </div>   
     </header>
 
-    <div class="submenu">
+    <div class="submenu" id="submenu">
       <div class="subshow">
          <div class="social">
-             <i class="fa fa-facebook-official fa1" aria-hidden="true"></i>
-             <i class="fa fa-whatsapp fa2" aria-hidden="true"></i>
-             <i class="fa fa-twitter-square fa3" aria-hidden="true"></i>
-             <i class="fa fa-instagram fa4" aria-hidden="true"></i>
+             <i class="fa fa-facebook-official fa1" aria-hidden="true"></i><br>
+             <i class="fa fa-whatsapp fa2" aria-hidden="true"></i><br>
+             <i class="fa fa-twitter-square fa3" aria-hidden="true"></i><br>
+             <i class="fa fa-instagram fa4" aria-hidden="true"></i><br>
          </div>
          <div class="socialmenu">
              <ul>
@@ -47,9 +47,7 @@
                 <li><a href="">Gallery</a></li>
              </ul>
          </div>
-         <div class="cross">
-            <i class="fa-solid fa-xmark"></i>
-         </div>
+        
         </div> 
       </div>
     </div>
@@ -95,16 +93,11 @@
         </div>
     </div> 
     <script>
-        document.querySelector(".fa-bars").addEventListener('click',showmenu);
+        document.getElementById("bars").addEventListener('click',showmenu);
         function showmenu(){
-            var z=document.querySelector(".subshow");
-            if(z.style.display=='none'){
-                z.style.display='block';
-            }else{
-                z.style.display='none';
-            }
-
+            document.getElementById("submenu").classList.toggle("hide");
         }
+       
     </script>
    
 </body>

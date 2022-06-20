@@ -1,25 +1,18 @@
 *{margin: 0px;padding:0px;}
 body{margin:0px;padding:0px;}
-header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);border: 1px;align-items: center;}
+header{display: flex;justify-content:space-between;background: rgb(88, 84, 84);border: 1px;align-items: center;z-index: 9999;}
+#header{position: sticky;top:0px;}
 .logo img{width: 150px;height: 100px;padding:10px;}
 .nav{display: flex;align-items: center;}
 .nav ul{display: flex;list-style: none;}
 .nav ul li{padding: 40px;}
 .nav ul li a{font-size: 25px;color:white;text-decoration: none;}
-.fa-bars{color:white;font-size: 50px;padding-right: 10px;}
+.fa-bars{color:white;font-size: 50px;padding-right: 10px;background: rgb(83, 77, 77);}
 #home a{background: rgb(0, 183, 255);padding:10px 10px 10px;border-radius: 10px;}
 @media screen and (max-width:805px){
     .nav ul{display:none;}
 }
-.submenu{display: flex;justify-content: right;align-items:flex-start;}
-.subshow{display: flex;background: red;position:absolute;margin-top: -128px;display: none;justify-content: space-around;}
-.social{display: flex;flex-direction: column;}
-.submenu div{padding:30px;}
-.social .fa{padding: 60px;font-size: 40px;}
-.submenu ul li{padding:40px;}
-.submenu ul li a{text-decoration: none;color:white;font-size: 40px;}
-
-.footer{display:flex;justify-content:space-around;background: black;font-size: 200%;justify-content: baseline;}
+.footer{display:flex;justify-content:space-around;background: black;font-size: 200%;justify-content: baseline;position: absolute;width:100%;}
 .footer a{text-decoration: none;color:white;}
 .footer p{text-decoration: none;color:white;}
 .footer .fa{text-decoration: none;color:white;color:white;}
@@ -35,3 +28,16 @@ header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);b
     .footer p a{text-align: center;}
     
 }
+.submenu{display: flex;justify-content: right;z-index:999;}
+.hide .subshow{opacity: 100%;}
+
+.subshow{background:red;width: 400px;;height:700px;font-size: 200%;z-index: 999;opacity:0%;flex-shrink: 1;}
+.socialmenu{position: absolute;margin-left: 200px;margin-top: -350px;}
+.social{margin-top: 100px;padding-left: 10px;}
+.social .fa{padding-top: 40px;}
+.socialmenu ul{list-style: none;}
+.socialmenu ul li{padding-top: 40px;}
+.socialmenu ul li a{color:white;text-decoration: none;}
+#submenu{position: sticky;top: 115px;}
+
+
