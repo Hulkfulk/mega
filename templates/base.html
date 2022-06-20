@@ -29,27 +29,34 @@
             <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
         </div>   
     </header>
-
     <div class="submenu" id="submenu">
-      <div class="subshow">
-         <div class="social">
-             <i class="fa fa-facebook-official fa1" aria-hidden="true"></i><br>
-             <i class="fa fa-whatsapp fa2" aria-hidden="true"></i><br>
-             <i class="fa fa-twitter-square fa3" aria-hidden="true"></i><br>
-             <i class="fa fa-instagram fa4" aria-hidden="true"></i><br>
-         </div>
-         <div class="socialmenu">
-             <ul>
-                 <li><a href="/">Home</a></li>
-                 <li><a href="/course">Courses</a></li>
-                 <li><a href="/price">Pricing</a></li>
-                 <li><a href="/about">About</a></li>
-                <li><a href="">Gallery</a></li>
-             </ul>
-         </div>
-        
-        </div> 
-      </div>
+        <div class="subshow" id="subshow">
+            <div class="social">
+                <i class="fa fa-facebook-official fa1" aria-hidden="true"></i><br>
+                <i class="fa fa-whatsapp fa2" aria-hidden="true"></i><br>
+                <i class="fa fa-twitter-square fa3" aria-hidden="true"></i><br>
+                <i class="fa fa-instagram fa4" aria-hidden="true"></i><br>
+            </div>
+            <div class="socialmenu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/course">Courses</a></li>
+                    <li><a href="/price">Pricing</a></li>
+                    <li><a href="/about">About</a></li>
+                   <li><a href="">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="cross" id="cross">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+           
+       </div> 
+
+    </div>
+
+  
+
+   
     </div>
      {% block content %}
      {% endblock %}
@@ -93,10 +100,14 @@
         </div>
     </div> 
     <script>
+        document.getElementById("cross").addEventListener('click',showmenu);
         document.getElementById("bars").addEventListener('click',showmenu);
         function showmenu(){
-            document.getElementById("submenu").classList.toggle("hide");
+           var z=document.querySelector(".submenu").classList.toggle("hide");
+           
+           
         }
+       
        
     </script>
    

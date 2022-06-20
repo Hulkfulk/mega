@@ -1,4 +1,4 @@
-.pricehead{display: flex;flex-direction: column;align-items: center;font-size: 190%;text-align: center;padding:20px;position: relative;margin-top: -640px;}
+.pricehead{display: flex;flex-direction: column;align-items: center;font-size: 190%;text-align: center;padding:20px;position: relative;margin-top:px;}
 .allprices{display: flex;justify-content:center;align-items: center;}
 .pricedib{padding:10px;}
 .pricecontent{border: 1px;outline-style: solid;display: flex;flex-direction: column;align-items: center;border-radius: 30px;font-size: 180%;}
