@@ -1,0 +1,22 @@
+.about{display:flex;margin-left: 280px;padding-top:150px;font-size: 250%;}
+.about img{width: 350px;height: auto;}
+.aboutinfo h2{color:red;}
+.call span{background:red;color:white;padding: 5px;border-radius: 5px;}
+.call{padding-top:20px;}
+.social{display:flex;flex-direction: column;position:absolute;margin-left:-280px;margin-top:40px;background:rgb(230, 220, 228);height: 220px;}
+.social .fa{font-size:100%;padding-top: 13px;padding-bottom: 5px;padding: 10px;}
+.social:hover{height: 280px;}
+.social:hover .fa{font-size: 140%;}
+.fa-facebook:hover{color:rgb(10, 177, 243);}
+.fa-whatsapp:hover{color:rgb(0, 150, 62);}
+.fa-instagram:hover{color:rgb(255, 0, 106);font-weight: bold;}
+.fa-envelope-o:hover{color:red;}
+.btn a{text-decoration: none;color:white;font-size:80%;padding: 5px;}
+.btn1 a{text-decoration: none;color:white;font-size:80%;padding: 5px;}
+.btn:hover{background: rgb(185, 14, 14);}
+.btn1:hover{background: rgb(185, 14, 14);}
+.aboutinfo{display:flex;align-items: center;padding-bottom: 280px;margin: auto;}
+#social{position: sticky;top: 120px;}
+@media screen and (max-width:1103px){
+    .about{font-size: 220%;}
+}

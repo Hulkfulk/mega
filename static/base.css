@@ -11,8 +11,8 @@ header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);b
 @media screen and (max-width:805px){
     .nav ul{display:none;}
 }
-.submenu{display: flex;justify-content: right;align-items:flex-start;display:none;}
-.subshow{display: flex;background: red;position:absolute;margin-top: -128px;}
+.submenu{display: flex;justify-content: right;align-items:flex-start;}
+.subshow{display: flex;background: red;position:absolute;margin-top: -128px;display: none;}
 .social{display: flex;flex-direction: column;}
 .submenu div{padding:30px;}
 .social .fa{padding: 60px;font-size: 40px;}

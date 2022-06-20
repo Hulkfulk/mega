@@ -1,0 +1,5 @@
+.col{display: flex;justify-content: center;}
+.col img{height:300px;width:300px;padding: 80px;}
+.aboutcourse{display: flex;justify-content:center;font-size: 190%;}
+.aboutcourse p{padding-left: 100px;}
+.course h1{text-align: center;font-size: 300%;padding-top: 30px;}

@@ -1,0 +1,24 @@
+.pricehead{display: flex;flex-direction: column;align-items: center;font-size: 190%;text-align: center;padding:20px;}
+.allprices{display: flex;justify-content:center;align-items: center;}
+.pricedib{padding:10px;}
+.pricecontent{border: 1px;outline-style: solid;display: flex;flex-direction: column;align-items: center;border-radius: 30px;font-size: 180%;}
+.pricecontent h6{border: 1px;outline-style: solid;width: 350px;padding: 20px;border-top-left-radius: 30px;border-top-right-radius: 30px;text-align: center;background: rgb(177, 170, 170);}
+.pricecontent p{padding:20px;text-align: center;}
+.pricecontent h5 a{background: rgb(0, 255, 157);width: 200px;padding: 15px;border-radius: 10px;text-decoration: none;color:white;padding-left:100px;padding-right: 100px;}
+.pricecontent h5{padding-bottom: 50px;padding-top: 30px;}
+.pricecontent h5 a:hover{background:rgb(9, 173, 110);;}
+@media screen and (max-width:840px) {
+    .allprices{flex-direction: column;}
+    .pricedib{padding:40px;}
+    
+}
+@media screen and (max-width:478px) {
+    .pricecontent h6{width: 250px;padding: 20px;border-top-left-radius: 30px;border-top-right-radius: 30px;text-align: center;background: rgb(177, 170, 170);}
+    .pricecontent{align-items: center;border-radius: 30px;font-size:120%;}
+    
+}
+@media screen and (max-width:340px) {
+    .pricecontent h6{width: 208px;padding: 20px;border-top-left-radius: 30px;border-top-right-radius: 30px;text-align: center;background: rgb(177, 170, 170);}
+    .pricecontent{align-items: center;border-radius: 30px;font-size:120%;}
+    
+}

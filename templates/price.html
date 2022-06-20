@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}
+Pricing Target Computer
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='price.css')}}">
+{% endblock %}
+{% block content %}
+<div class="pricehead">
+    <h3>Pricing</h3>
+    <p>This courses are design to provide
+       effective learning outcome <br>with
+       only a minimal pricing mention below 
+    </p>
+</div>
+<div class="allprices">
+    <div class="pricedib">
+        <div class="pricecontent">
+            <h6>Basic</h6>
+            <p>$7/mo</p>
+            <p>This is Minimal price for all<br>
+               the courses avialable on our <br>
+               Institution
+            </p>
+            <div class="pricebtn">
+              <h5><a href="">Start</a></h5>
+            </div>
+        </div>
+        
+    </div>
+    <div class="pricedib"id="pricedib">
+        <div class="pricecontent">
+            <h6>Combo</h6>
+            <p>$10/mo</p>
+            <p>This is Minimal price for all<br>
+               the courses avialable on our <br>
+               Institution
+            </p>
+            <div class="pricebtn pricebtn2">
+              <h5><a href="">Start</a></h5>
+            </div>
+        </div>
+        
+    </div>
+</div><br><br><br><br><br><br><br><br>
+
+{% endblock %}
