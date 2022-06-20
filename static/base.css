@@ -12,7 +12,7 @@ header{display: flex;justify-content:space-between;background: rgb(83, 77, 77);b
     .nav ul{display:none;}
 }
 .submenu{display: flex;justify-content: right;align-items:flex-start;}
-.subshow{display: flex;background: red;position:absolute;margin-top: -128px;display: none;}
+.subshow{display: flex;background: red;position:absolute;margin-top: -128px;display: none;justify-content: space-around;}
 .social{display: flex;flex-direction: column;}
 .submenu div{padding:30px;}
 .social .fa{padding: 60px;font-size: 40px;}
