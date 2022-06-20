@@ -1,7 +1,7 @@
-.coursecall{display: flex;font-size: 180%;overflow: scroll;background: rgb(255, 255, 255);align-items: center;padding: 10px;border: 1px;outline-style: solid;color:rgb(128, 121, 121);outline-width: 0.8px;}
+.coursecall{display: flex;font-size: 140%;overflow: scroll;background: rgb(255, 255, 255);align-items: center;padding: 10px;border: 1px;outline-style: solid;color:rgb(128, 121, 121);outline-width: 0.8px;}
 .coursecall p{padding-left: 30px;}
-.coursecall p a{text-decoration: none;color:rgb(80, 74, 74);font-weight: bold;}
-.coursecall p a:hover{text-decoration: underline;color:rgb(255, 255, 255);}
+.coursecall p a{text-decoration: none;color:rgb(80, 74, 74);}
+.coursecall p a:hover{text-decoration: underline;color:rgb(24, 21, 21);}
 .course1 img{height: 300px;width:auto;}
 .course1{display: flex;border: 1px;width:900px;margin:0 auto;outline-style: solid;background:rgb(129, 121, 121);padding: 10px;outline-width: 0.8px;}
 .dca{display: flex;justify-content: center;padding-bottom:120px;padding-top: 50px;}
@@ -11,7 +11,7 @@
 .coursebtn p a{background: rgb(0, 255, 242);padding: 10px;color:rgb(8, 8, 8);text-decoration: none;border-radius: 10px;}
 .coursebtn{padding-top: 40px;padding-bottom: 10px;}
 .course1:hover{background: rgb(243, 131, 149);}
-.coursebtn p a:hover{background:rgb(255, 0, 0);color:white;}
+.coursebtn p a:hover{background:rgb(255, 0, 0);color:rgb(253, 251, 251);}
 .random .course1{background: red;}
 #coursecall{position: sticky;top:0px;}
 html{
