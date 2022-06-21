@@ -13,6 +13,8 @@ class SignupForm(Form):
     phone=IntegerField('phone',[validators.DataRequired(),validators.length(min=10,max=10)])
     email=EmailField('Email',[validators.DataRequired(),validators.length(min=5,max=200)])
     submit=SubmitField('Submit')
+    text=TextAreaField('text',[validators.DataRequired(),validators.length(min=50)])
+    
     
 
 app=Flask(__name__)
@@ -45,7 +47,12 @@ def price():
 @app.route('/about')
 @cache.cached(timeout=300)
 def about():
-    return render_template("about.html")    
+    return render_template("about.html") 
+
+@app.route('/mail')
+def mail():
+    form=SignupForm()
+    return render_template("mail.html",form=form)   
 
 if __name__=='__main__':
     app.run(debug=True)    

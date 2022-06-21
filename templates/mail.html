@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}
+mail Target Computer
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='mail.css')}}">
+{% endblock %}
+{% block content %}
+<div class="maildib">
+    <div class="mailcontainer">
+        <div><i class="fa-solid fa-paper-plane"></i></div>
+        <div><h1>Drop Us A Messege</h1></div>
+        <form action="" method="post">
+            {{form.name(placeholder="Name",class="input1")}}
+            {{form.email(placeholder="Email Address",class="input1")}}<br><br>
+            {{form.email(placeholder="subject", class="input")}}<br><br>
+            {{form.text(placeholder="Write Us A Messege",class="input text")}}<br>
+            {{form.submit(class="submit")}}
+        </form>
+    </div>
+</div>
+{% endblock %}
