@@ -1,0 +1,15 @@
+.formcontainer{display: flex;flex-direction: column;align-items: center;padding-top: 60px;padding-bottom: 50px;}
+form{text-align: center;font-size: 150%;background: red;padding:60px 80px;z-index: 99;box-shadow: 5px 5px 10px;}
+.input{height:25px;}
+.formbtn{padding:10px 20px;margin-top: 20px;}
+.input:focus{border: 5px solid blue;}
+.formbtn:active{background:rgb(0, 255, 221);border-radius: 5px;}
+body{background: rgb(0, 255, 98);backdrop-filter: contrast(50%);animation-name: signup;animation-duration:4s;animation-iteration-count: infinite;animation-delay: 1s;}
+@keyframes signup {
+    0%{background: rgb(255, 255, 0);}
+    25%{background: rgb(0, 255, 98);}
+    50%{background: rgb(219, 39, 69);}
+    75%{background: rgb(202, 0, 253);}
+    100%{background: rgb(255, 0, 98);}
+    
+}
