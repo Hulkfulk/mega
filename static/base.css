@@ -21,7 +21,6 @@ header{display: flex;justify-content:space-between;background: rgb(88, 84, 84);b
 .footer h4{color:white;}
 .col4{display: flex;flex-direction: column;align-items: center;}
 .cross{position: absolute;margin-top: -400px;margin-left: 530px;font-size: 150%;background: red;cursor: pointer;color:white;}
-
 @media screen and (max-width:726px){
     .footer{flex-direction: column;align-items: center;}
     .footer div{padding: 50px;}
@@ -44,5 +43,6 @@ header{display: flex;justify-content:space-between;background: rgb(88, 84, 84);b
 #submenu{position:fixed;}
 
 .hide .subshow{display: inline-block;}
+
 
 

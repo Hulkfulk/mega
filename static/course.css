@@ -1,15 +1,15 @@
-.coursecall{display: flex;font-size: 140%;overflow: scroll;background: rgb(255, 255, 255);align-items: center;padding: 20px;border: 1px;outline-style: solid;color:rgb(128, 121, 121);outline-width: 0.8px;position: relative;margin-top: -720px;position:sticky;top:118px;}
+.coursecall{display: flex;font-size: 140%;overflow: scroll;background: rgb(255, 255, 255);align-items: center;border: 1px;outline-style: solid;color:rgb(128, 121, 121);outline-width: 0.8px;position: relative;margin-top: -720px;position:sticky;top:118px;padding-top: 20px;justify-content:space-between;}
 .coursecall p{padding-left: 30px;}
 .coursecall p a{text-decoration: none;color:rgb(80, 74, 74);}
 .coursecall p a:hover{text-decoration: underline;color:rgb(24, 21, 21);}
 .course1 img{height: 300px;width:auto;}
 .course1{display: flex;border: 1px;width:900px;margin:0 auto;outline-style: solid;background:rgb(129, 121, 121);padding:10px;outline-width: 0.8px;}
-#course1{margin-top: 700px;}
+#course1{margin-top: 750px;}
 .dca{display: flex;justify-content: center;padding-bottom:100px;padding-top: 50px;}
 .coursecontent{display: flex;align-items: center;flex-direction: column;}
 .coursecontent p{font-size: 150%;text-align: center;}
 .coursecontent h1{color:rgb(0, 0, 0);}
-.coursebtn p a{background: rgb(0, 255, 242);padding: 10px;color:rgb(8, 8, 8);text-decoration: none;border-radius: 10px;}
+.coursebtn p a{background: rgb(0, 255, 242);padding: 10px;color:rgb(8, 8, 8);text-decoration: none;border-radius: 10px;animation-name: automatebtn;animation-duration: 2s;animation-timing-function: ease-in-out;animation-iteration-count: infinite;}
 .coursebtn{padding-top: 40px;padding-bottom: 10px;}
 .course1:hover{background: rgb(243, 131, 149);}
 .coursebtn p a:hover{background:rgb(255, 0, 0);color:rgb(253, 251, 251);}
@@ -23,7 +23,23 @@ html{
     .course1 img{width:600px;}
 }
 @media screen and (max-width:477px){
-    .course1{width: 300px;}
+    .course1{width: 300px;animation-name: none;}
     .course1 img{height:200px;width:300px;}
 
 }
+@media screen and (min-width:850px){
+    .course1{animation:automate;animation-duration: 2s;animation-iteration-count: infinite;animation-timing-function:ease-in;animation: big 2s ease 1;}
+
+}
+
+@keyframes automatebtn {
+    0%{backgrond:rgb(0, 255, 242);}
+    50%{background: red;color:white;}
+    
+}
+@keyframes big {
+    15%{width: 700px;}
+    100%{width: 900px;}
+}
+
+

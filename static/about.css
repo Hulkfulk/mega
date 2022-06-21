@@ -1,0 +1,14 @@
+.aboutbody img{width:100%;height:85vh;filter: contrast(20%);}
+.aboutus{position:absolute;z-index:99;display: flex;width: 90vw;height:50vh;justify-content: center;}
+.aboutcontent{width: 550px;;margin-top: 180px;text-align: center;font-size: 150%;}
+.aboutbtn{display: flex;justify-content: center;margin-top:30px;align-items: center;}
+.aboutbtn p a{text-decoration: none;color:white;border:1px;outline-style: solid;padding:10px;padding-left: 130px;padding-right: 130px;outline-width: 1px;outline-color: white;}
+.aboutbtn div a{font-size:230%;color:black;}
+.aboutbtn div{margin-left:10px;}
+.aboutbtn p a:hover{background: rgb(0, 221, 255);color:black;}
+.aboutbtn div a:hover{color:rgb(61, 56, 56)};
+
+@media screen and (max-width:520px){
+    .aboutbtn{flex-direction: column;}
+    .aboutbtn p a{padding-left: 50px;padding-right:50px;outline-width: 1px;outline-color: white;}
+}
