@@ -19,3 +19,5 @@ body{background: rgb(0, 255, 98);backdrop-filter: contrast(50%);animation-name: 
 
 
 }
+#submenu{position:sticky;top:100px;}
+
