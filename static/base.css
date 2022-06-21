@@ -13,12 +13,12 @@ header{display: flex;justify-content:space-between;background: rgb(88, 84, 84);b
     .nav ul{display:none;}
 }
 .footer{display:flex;justify-content:space-around;background: black;font-size: 200%;justify-content: baseline;width:100%;}
-.footer a{text-decoration: none;color:white;}
-.footer p{text-decoration: none;color:white;}
+.footer a{text-decoration: none;color:white;text-align: center;}
+.footer p{text-decoration: none;color:white;text-align: center;}
 .footer .fa{text-decoration: none;color:white;color:white;}
 .devdonate a{background:pink;padding:15px;width: 100px;text-align: center;}
 .devdonate{width:100%}
-.footer h4{color:white;}
+.footer h4{color:white;text-align: center;}
 .col4{display: flex;flex-direction: column;align-items: center;}
 .cross{position: absolute;margin-top: -400px;margin-left: 530px;font-size: 150%;background: red;cursor: pointer;color:white;}
 @media screen and (max-width:726px){
@@ -30,6 +30,9 @@ header{display: flex;justify-content:space-between;background: rgb(88, 84, 84);b
 }
 @media screen and (max-width:520px){
     .fa-bars{visibility: visible;}
+    .devdonate{margin: 0 auto;}
+    .devdonate a{background:pink;padding:10px;width:70px;text-align: center;}
+    .devdonate{width:80%;padding-left: 20px;}
     
 }
 .submenu{align-self: flex-end;z-index: 9999;}
